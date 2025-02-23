@@ -1,0 +1,24 @@
+.navbar {
+    height: 60px;
+    width: 100vw;
+    height: 50px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(178,0,184,1) 0%, rgba(71,0,159,1) 90% );
+    color: white;
+    position: fixed;
+  z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.favicon {
+    height: 25px;
+    border-radius: 50%;
+}
